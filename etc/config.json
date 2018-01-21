@@ -1,0 +1,4 @@
+{
+    "appPort": 8082,
+    "staticPath": "./static"
+}
