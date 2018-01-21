@@ -1,0 +1,34 @@
+{
+  "name": "phantomjs-image-generator",
+  "version": "1.0.0",
+  "description": "tool for generating images from html using PhantomJS",
+  "main": "runner.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/unsigned6/phantomjs-image-generator.git"
+  },
+  "keywords": [
+    "phantomjs",
+    "image-genaretor"
+  ],
+  "author": "Yurii Vlasiuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/unsigned6/phantomjs-image-generator/issues"
+  },
+  "homepage": "https://gitlab.com/unsigned6/phantomjs-image-generator#README",
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "babel-plugin-transform-class-properties": "^6.19.0",
+    "babel-plugin-transform-decorators": "^6.13.0",
+    "babel-plugin-transform-object-rest-spread": "^6.19.0",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-node6": "^11.0.0",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "phantom": "^4.0.12"
+  }
+}
